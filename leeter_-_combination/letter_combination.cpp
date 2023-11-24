@@ -18,10 +18,16 @@ int main() {
   cin >> digits;
 
 
+
+  // cout << "size >>> " + std::to_string(digits.size());
+
   for (size_t i = 0; i < digits.size(); i++){
-    // cout << ">>>" << digits[i] << "\n";
     string letters = num_letters_board[digits[i]];
-    cout << ">>>" << letters.size() << "\n";
+    cout << ">>>" << letters << "\n";
+
+    for(size_t j = 0; j < letters.size(); j++){
+      
+    }
   }
 
   return 0;
